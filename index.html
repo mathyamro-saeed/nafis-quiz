@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار نافس التجريبي 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <h1>الاختبارات الوطنية "نافس" 2026 - تدريبات الصف الثالث الابتدائي</h1>
+    <p>مدرسة سعيد بن المسيب الابتدائية بأبها</p>
+    <p>معلم المادة / أ. عمرو العمري | مدير المدرسة / عبدالرحمن النقاز</p>
+</div>
+
+<div class="quiz-container" id="quiz-box">
+    <div class="progress" id="progress">سؤال 1 من 45</div>
+    <div class="question-text" id="question">تحميل السؤال...</div>
+    <div class="options-grid" id="options"></div>
+    <button class="nav-btn" id="next-btn" onclick="nextQuestion()">السؤال التالي ←</button>
+</div>
+
+<div class="quiz-container" id="results">
+    <h2 style="text-align: center;">النتيجة النهائية: <span id="score"></span> / 45</h2>
+    <hr>
+    <h3>مراجعة الإجابات:</h3>
+    <div id="review-list"></div>
+    <button class="nav-btn" style="display:block; margin: 20px auto;" onclick="location.reload()">إعادة الاختبار</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
